@@ -16,7 +16,7 @@
 	</target>
 	
 	<target name="junit" depends="compile">
-		<junit haltonfailure="false" printsummary="true">
+		<junit haltonfailure="true" printsummary="true">
 		<classpath refid="classpath"></classpath>
 		<test name="test.JunitTest" todir="reports"></test>
 		<formatter type="xml"></formatter>
