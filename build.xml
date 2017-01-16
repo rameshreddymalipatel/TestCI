@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="run" name="Test CI -- Compile and Run">
-	<target name="run" depends="compile">
-		<java classname="citool.TestCI">
+
+	
+	<path id="classpath">
+	<path location = "lib"></path>
+		<fileset dir="lib" includes="*.jar">
+		</fileset>
+		<path location = "bin"></path>
+	</path>
+	
+	<target name="run" depends="junit">
+			<java classname="citool.TestCI">
 			<classpath path="staging" />
 		</java>
 	</target>
+	
+	<target name="junit" depends="compile">
+		<junit haltonfailure="false" printsummary="true">
+		<classpath refid="classpath"></classpath>
+		<test name="test.JunitTest" todir="reports"></test>
+		<formatter type="xml"></formatter>
+		</junit>
+	</target>
+	
+	
 	<target name="compile">
-		<javac includeantruntime="false" srcdir="./src" destdir="Staging" />
+		<javac includeantruntime="false" srcdir="./src" destdir="Staging" classpathref ="classpath"/>
 	</target>
 </project>
