@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="RameshReddy" name="test.JunitTest" skipped="0" tests="1" time="0.081" timestamp="2017-01-16T18:36:10">
+  <properties>
+    <property name="ant.project.invoked-targets" value="run" />
+    <property name="ant.file.Test CI -- Compile and Run" value="C:\CI\Projects\TestCIProject\build.xml" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_60\jre\bin" />
+    <property name="java.vm.version" value="24.60-b09" />
+    <property name="ant.library.dir" value="C:\CI\ant\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.8 compiled on December 25 2016" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.script" value="" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="C:\CI\Projects\TestCIProject" />
+    <property name="java.runtime.version" value="1.7.0_60-b19" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="C:\CI\Projects\TestCIProject" />
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_60\jre\lib\endorsed" />
+    <property name="os.arch" value="x86" />
+    <property name="ant.project.default-target" value="run" />
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\" />
+    <property name="ant.core.lib" value="C:\CI\ant\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="ant.file.type.Test CI -- Compile and Run" value="file" />
+    <property name="os.name" value="Windows 7" />
+    <property name="ant.home" value="C:\CI\ant" />
+    <property name="ant.project.name" value="Test CI -- Compile and Run" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.7.0_60/bin;C:\Program Files (x86)\Java\jdk1.7.0_60/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Dell\Dell Wireless WLAN Card;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files\Java\jdk1.8.0_65;C:\Program Files (x86)\Java\jdk1.8.0_77\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Java\jdk1.8.0_91;C:\Program Files (x86)\Java\jdk1.7.0_60\bin;C:\CI\Maven\bin;C:\CI\ant\bin;." />
+    <property name="java.class.version" value="51.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="os.version" value="6.1" />
+    <property name="ant.file" value="C:\CI\Projects\TestCIProject\build.xml" />
+    <property name="user.home" value="C:\Users\Ramesh Reddy" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="user.name" value="Ramesh Reddy" />
+    <property name="java.class.path" value="C:\CI\ant\lib\ant-launcher.jar;C:\CI\ant\lib\ant-antlr.jar;C:\CI\ant\lib\ant-apache-bcel.jar;C:\CI\ant\lib\ant-apache-bsf.jar;C:\CI\ant\lib\ant-apache-log4j.jar;C:\CI\ant\lib\ant-apache-oro.jar;C:\CI\ant\lib\ant-apache-regexp.jar;C:\CI\ant\lib\ant-apache-resolver.jar;C:\CI\ant\lib\ant-apache-xalan2.jar;C:\CI\ant\lib\ant-commons-logging.jar;C:\CI\ant\lib\ant-commons-net.jar;C:\CI\ant\lib\ant-jai.jar;C:\CI\ant\lib\ant-javamail.jar;C:\CI\ant\lib\ant-jdepend.jar;C:\CI\ant\lib\ant-jmf.jar;C:\CI\ant\lib\ant-jsch.jar;C:\CI\ant\lib\ant-junit.jar;C:\CI\ant\lib\ant-junit4.jar;C:\CI\ant\lib\ant-launcher.jar;C:\CI\ant\lib\ant-netrexx.jar;C:\CI\ant\lib\ant-swing.jar;C:\CI\ant\lib\ant-testutil.jar;C:\CI\ant\lib\ant.jar;C:\Program Files (x86)\Java\jdk1.7.0_60\lib\tools.jar" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -file build.xml" />
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_60\jre" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="user.language" value="en" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.version" value="1.7.0_60" />
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_60\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_60\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_60\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_60\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_60\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_60\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_60\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_60\jre\classes" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type" value="file" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+  </properties>
+  <testcase classname="test.JunitTest" name="testSample" time="0.011" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
