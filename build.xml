@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="run" name= "Test CI -- Compile and Run">
+	<target name="run" depends="compile">
+	<java classname="citool.TestCI">
+		<classpath path="staging"/> 
+	</java>
+	</target>
+	<target name="compile">
+	<javac includeantruntime="false" srcdir = "./src" destdir="Staging"/>
+	</target>
+</project>
