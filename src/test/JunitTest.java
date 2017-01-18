@@ -11,7 +11,7 @@ public class JunitTest {
 		@Test
 		public void testSample() {
 			TestCI test = new TestCI();
-			Assert.assertEquals(test.sample().toString(),"sample1");
+			Assert.assertEquals(test.sample().toString(),"sample");
 		}
 
 	
