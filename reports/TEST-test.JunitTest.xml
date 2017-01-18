@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="RameshReddy" name="test.JunitTest" skipped="0" tests="1" time="0.048" timestamp="2017-01-18T05:49:14">
+<testsuite errors="0" failures="0" hostname="RameshReddy" name="test.JunitTest" skipped="0" tests="1" time="0.041" timestamp="2017-01-18T05:53:18">
   <properties>
     <property name="ant.project.invoked-targets" value="run" />
     <property name="ant.file.Test CI -- Compile and Run" value="C:\CI\Projects\TestCIProject\build.xml" />
@@ -69,11 +69,7 @@
     <property name="sun.desktop" value="windows" />
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
   </properties>
-  <testcase classname="test.JunitTest" name="testSample" time="0.009">
-    <failure message="expected:&lt;sample[]&gt; but was:&lt;sample[1]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;sample[]&gt; but was:&lt;sample[1]&gt;
-	at test.JunitTest.testSample(JunitTest.java:14)
-</failure>
-  </testcase>
+  <testcase classname="test.JunitTest" name="testSample" time="0.003" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
